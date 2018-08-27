@@ -5,7 +5,7 @@ data class Usuario(
 )
 
 fun main(args: Array<String>) {
-    var usuario: Usuario? = null
+    val usuario: Usuario? = null
 
     usuario?.id = 1
     usuario?.nome = "Lucas Marciano"
